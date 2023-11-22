@@ -6,10 +6,14 @@
     <title>Magnolia House</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/tienda.css">
+    </head>
+
+    <body>
     <!-- Bootstrap link -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -27,7 +31,7 @@
                 <h1 class="display-1 fw-bolder text-capitalize">Magnolia Home</h1>
                 <div class="he-des">
                     <h5>Decoración para tu casa en un solo lugar</h5>
-                    <a href="https://ar.pinterest.com/gmicaelasierra/muebles-hogar/" class="btn cta-btn">Enamorate</a>
+                    <a href="./Pages/tienda.html" class="btn cta-btn">Enamorate</a>
                 </div>
             </div>
           </div>
@@ -40,7 +44,7 @@
                 <h1 class="display-1 fw-bolder text-capitalize">Magnolia Home</h1>
                 <div class="he-des">
                     <h5>Decoración para tu casa en un solo lugar</h5>
-                    <a href="https://ar.pinterest.com/gmicaelasierra/muebles-hogar/" class="btn cta-btn">Enamorate</a>
+                    <a href="./Pages/tienda.html" class="btn cta-btn">Enamorate</a>
                 </div>
             </div>
             
@@ -54,7 +58,7 @@
                 <h1 class="display-1 fw-bolder text-capitalize">Magnolia Home</h1>
                 <div class="he-des">
                     <h5>Decoración para tu casa en un solo lugar</h5>
-                    <a href="https://ar.pinterest.com/gmicaelasierra/muebles-hogar/" class="btn cta-btn">Enamorate</a>
+                    <a href="./Pages/tienda.html" class="btn cta-btn">Enamorate</a>
                 </div>
             </div>
           </div>
@@ -72,30 +76,47 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <header>
+            
+
         <div class="container">
             <nav class="nav">
             <div class="menu-toggle">
             <i class="fas fa-bars"></i>
                 <i class="fas fa-times"></i>
             </div>
-            <a href="#" class="logo">LOGO</a>
+            <a href="#" class="logo"> <img src="./assets/Img/magnolia (2).png" alt="logotipo"> </a>
+            
             <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Inicio</a>
-                    </li>
                     
-                         <li class="nav-item">
-                            <a href="#Tienda" class="nav-link ">Tienda</a>
+                <li class="nav-item">
+                  
+                    <a href="#Nosotros" class="nav-link1">Inicio</a>
+                
+                </li>
+                    
+                     <li class="nav-item">
+                        <a href="./Pages/shop.html" class="nav-link1">Tienda</a>
+                    </li>
+                        <li class="nav-item">
+                            <a href="#Nosotros" class="nav-link1">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#Nosotros" class="nav-link ">Nosotros</a>
+                            <a href="#Contacto" id=headd class="nav-link1">Contacto</a>
                         </li>
+                    
+                      <!-- carrito -->
                         <li class="nav-item">
-                            <a href="#Contacto" class="nav-link ">Contacto</a>
+                            <a href="./Pages/shop.html" class="carrito-shop"> <img src="./assets/Img/shopping-cart.png" alt="carrito de compras"><span id="carrito-compras">0</span></a>
+                        
                         </li>
+                        
+                       
+                       
             </ul>
             </nav>
-            </div>
+       
+        </div>  
+    
     </header>
 
           </button>
@@ -159,7 +180,7 @@
                         voluptatem, recusandae porro corporis assumenda. 
                         Aliquam accusamus blanditiis illo, vero quia tempora praesentium.
             </p>
-            <a href="https://ar.pinterest.com/gmicaelasierra/muebles-hogar/" class="btn cta-btn" >Elegí tu favorito ❤</a>
+            <a href="./Pages/shop.html" class="btn cta-btn" >Elegí tu favorito ❤</a>
         </div>
             <div class="image-group pad-rig">
             <img src="./assets/Img/perchero.jpg" alt="">

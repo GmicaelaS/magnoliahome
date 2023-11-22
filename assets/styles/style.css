@@ -31,7 +31,8 @@ img{
 
 a{
     text-decoration: none;
-    }
+    
+    } 
 p{
     font-size: 1.6rem;
     }
@@ -133,9 +134,7 @@ header {
     transform: scale(1);
 }
 .logo {
-    color: bisque;
-    font-size: 2rem;
-    font-weight: 600;
+    margin-left: 2px;
 }
 
 .nav-item {
@@ -153,6 +152,37 @@ header {
     color: antiquewhite;
 }
 
+header nav img{
+    height: 25px;
+    width: 25px;
+    display: flexbox;
+    margin-right: 4px;
+    padding: -1rem;
+    letter-spacing: 2px;
+    justify-content:space-between;
+    position: relative;
+}
+
+#carrito-compras{
+    background-color:bisque;
+    border-radius: 96%;
+    display:inline-block;
+    width: 14px;
+    line-height: 14px;
+    aspect-ratio: 1;
+    text-align: center;
+    position: relative;
+}
+
+.nav-link1{
+    text-decoration: none;
+    color:bisque;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    display: block;
+}
 
 
 
@@ -458,5 +488,156 @@ footer{
    .news-btn{
     margin-left: 7.5rem;
    }
+}
+/* se da forma al carrito */
+
+.container-productos {
+    
+    display: list-item;
+    text-decoration: none;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background-color:antiquewhite;
+    position:sticky;
+    top: 0;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 100rem;
+    
+
+}
+
+.producto-img {
+    
+    height: 25%;
+    width: 25%;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.detail-productos{
+    display:inline-table;
+    background-color: rgb(240, 193, 137);
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 2rem;
+    position:static;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-display: flex;
+    color: black;
+}
+
+.title-productos{
+font-size: 1rem;
+}
+.add-producto {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    border: 0;
+    background-color:bisque;
+    padding: .5rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+    .add-producto:hover {
+        background-color:beige;
+        color:black;
+    }
+
+/* se da forma al  volver */
+
+.botton-back {
+    list-style: none;
+    text-decoration:none;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+/* llamada a la acción */
+
+.title-cart {
+    text-align:center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(247, 245, 244);
+   
+     }
+
+    .h3-cart {
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        background-color:rgb(247, 245, 244) ;
+        border-radius: 2rem;
+        padding: -1%;
+        
+        }
+
+        .shopper-empty {
+            display: none;
+            text-align:center;
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+                    }
+
+    /* se agrega volver a la tienda */
+   
+    .botton-back-shop{
+        display: flex;
+        list-style: none;
+        align-items: right;
+        color: black;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif
+        
+       }
+
+       /* modificación de carrito */
+
+.title-producto {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+}
+.cart-product {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(255, 245, 234);
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.producto-img-cart{
+    display: flex;
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.cart-action-total{
+    font-size: 1.5rem;
+    background-color: transparent;
+
+}
+.cart-product-delete {
+    width: 25px;
+    height: 25px;
+    border-radius: 5rem;
+
+   
+}
+
+:disabled{
+    display: none;
+    
 }
 
